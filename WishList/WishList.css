@@ -1,0 +1,62 @@
+@import url("https://uilight.netlify.app/main.css");
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+    color:white;
+}
+
+#heading{
+    font-size: 1.5rem;
+    color:#e2e8f0;
+    display: flex;
+    font-family: 'REM', sans-serif;
+    justify-content: center;
+}
+#wishinput{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#wishlisttext{
+    border-radius: 10px;
+    height:2rem;
+    font-size: 25px;
+}
+#wishlistadd{
+    font-size: 1.5rem;
+    padding: 0px 10px 0 10px;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color:#ef4444;
+    color:white;
+    margin-left:10px;
+    border-radius: 5px;
+}
+label{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#displayList{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.checked-todo
+{
+    text-decoration: line-through;
+
+}
